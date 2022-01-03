@@ -1757,78 +1757,86 @@ struct SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8  : public MonoBehav
 	bool ___HideStartButton_4;
 	// UnityEngine.GUISkin Rufus31415.WebXR.SimpleWebXR::customSkin
 	GUISkin_t8C65CE1424D4B5D8D73022E266BDAD3BDE8612D9* ___customSkin_5;
-	// UnityEngine.GameObject Rufus31415.WebXR.SimpleWebXR::RightHand
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___RightHand_6;
 	// UnityEngine.GameObject Rufus31415.WebXR.SimpleWebXR::LeftHand
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___LeftHand_7;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___LeftHand_6;
 	// UnityEngine.GameObject Rufus31415.WebXR.SimpleWebXR::myEarth
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___myEarth_8;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___myEarth_7;
+	// UnityEngine.GameObject Rufus31415.WebXR.SimpleWebXR::myCorona
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___myCorona_8;
+	// UnityEngine.GameObject Rufus31415.WebXR.SimpleWebXR::mySatelliteNameText
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___mySatelliteNameText_9;
+	// UnityEngine.Camera Rufus31415.WebXR.SimpleWebXR::mainCamera
+	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___mainCamera_10;
+	// UnityEngine.Camera Rufus31415.WebXR.SimpleWebXR::secondaryCamera
+	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___secondaryCamera_11;
 	// Rufus31415.WebXR.WebXRReferenceSpaces Rufus31415.WebXR.SimpleWebXR::ReferenceSpace
-	int32_t ___ReferenceSpace_9;
+	int32_t ___ReferenceSpace_13;
 	// System.Single Rufus31415.WebXR.SimpleWebXR::FallbackUserHeight
-	float ___FallbackUserHeight_10;
+	float ___FallbackUserHeight_14;
 };
 
 struct SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields
 {
+	// UnityEngine.Camera Rufus31415.WebXR.SimpleWebXR::activeCamera
+	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___activeCamera_12;
 	// System.Boolean Rufus31415.WebXR.SimpleWebXR::<InSession>k__BackingField
-	bool ___U3CInSessionU3Ek__BackingField_11;
+	bool ___U3CInSessionU3Ek__BackingField_15;
 	// UnityEngine.Events.UnityEvent Rufus31415.WebXR.SimpleWebXR::SessionStart
-	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___SessionStart_12;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___SessionStart_16;
 	// UnityEngine.Events.UnityEvent Rufus31415.WebXR.SimpleWebXR::SessionEnd
-	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___SessionEnd_13;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___SessionEnd_17;
 	// Rufus31415.WebXR.WebXRInputSource Rufus31415.WebXR.SimpleWebXR::LeftInput
-	WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* ___LeftInput_14;
+	WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* ___LeftInput_18;
 	// Rufus31415.WebXR.WebXRInputSource Rufus31415.WebXR.SimpleWebXR::RightInput
-	WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* ___RightInput_15;
+	WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* ___RightInput_19;
 	// Rufus31415.WebXR.WebXRInputEvent Rufus31415.WebXR.SimpleWebXR::InputSourceSelect
-	WebXRInputEvent_t0935517504234FA6AE34655B93BBBB4C31070CA2* ___InputSourceSelect_16;
+	WebXRInputEvent_t0935517504234FA6AE34655B93BBBB4C31070CA2* ___InputSourceSelect_20;
 	// Rufus31415.WebXR.WebXRInputEvent Rufus31415.WebXR.SimpleWebXR::InputSourceSelectStart
-	WebXRInputEvent_t0935517504234FA6AE34655B93BBBB4C31070CA2* ___InputSourceSelectStart_17;
+	WebXRInputEvent_t0935517504234FA6AE34655B93BBBB4C31070CA2* ___InputSourceSelectStart_21;
 	// Rufus31415.WebXR.WebXRInputEvent Rufus31415.WebXR.SimpleWebXR::InputSourceSelectEnd
-	WebXRInputEvent_t0935517504234FA6AE34655B93BBBB4C31070CA2* ___InputSourceSelectEnd_18;
+	WebXRInputEvent_t0935517504234FA6AE34655B93BBBB4C31070CA2* ___InputSourceSelectEnd_22;
 	// Rufus31415.WebXR.WebXRInputEvent Rufus31415.WebXR.SimpleWebXR::InputSourceSqueeze
-	WebXRInputEvent_t0935517504234FA6AE34655B93BBBB4C31070CA2* ___InputSourceSqueeze_19;
+	WebXRInputEvent_t0935517504234FA6AE34655B93BBBB4C31070CA2* ___InputSourceSqueeze_23;
 	// Rufus31415.WebXR.WebXRInputEvent Rufus31415.WebXR.SimpleWebXR::InputSourceSqueezeStart
-	WebXRInputEvent_t0935517504234FA6AE34655B93BBBB4C31070CA2* ___InputSourceSqueezeStart_20;
+	WebXRInputEvent_t0935517504234FA6AE34655B93BBBB4C31070CA2* ___InputSourceSqueezeStart_24;
 	// Rufus31415.WebXR.WebXRInputEvent Rufus31415.WebXR.SimpleWebXR::InputSourceSqueezeEnd
-	WebXRInputEvent_t0935517504234FA6AE34655B93BBBB4C31070CA2* ___InputSourceSqueezeEnd_21;
+	WebXRInputEvent_t0935517504234FA6AE34655B93BBBB4C31070CA2* ___InputSourceSqueezeEnd_25;
 	// UnityEngine.Events.UnityEvent Rufus31415.WebXR.SimpleWebXR::InputSourcesChange
-	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___InputSourcesChange_22;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___InputSourcesChange_26;
 	// UnityEngine.Vector3 Rufus31415.WebXR.SimpleWebXR::HitTestPosition
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___HitTestPosition_23;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___HitTestPosition_27;
 	// UnityEngine.Quaternion Rufus31415.WebXR.SimpleWebXR::HitTestRotation
-	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___HitTestRotation_24;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___HitTestRotation_28;
 	// System.Boolean Rufus31415.WebXR.SimpleWebXR::_initialized
-	bool ____initialized_25;
+	bool ____initialized_29;
 	// System.Single[] Rufus31415.WebXR.SimpleWebXR::_dataArray
-	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ____dataArray_26;
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ____dataArray_30;
 	// System.Byte[] Rufus31415.WebXR.SimpleWebXR::_byteArray
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____byteArray_27;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____byteArray_31;
 	// System.Single[] Rufus31415.WebXR.SimpleWebXR::_handData
-	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ____handData_28;
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ____handData_32;
 	// Rufus31415.WebXR.WebXRReferenceSpaces Rufus31415.WebXR.SimpleWebXR::_referenceSpace
-	int32_t ____referenceSpace_29;
+	int32_t ____referenceSpace_33;
 	// System.Single Rufus31415.WebXR.SimpleWebXR::_fallbackUserHeight
-	float ____fallbackUserHeight_30;
+	float ____fallbackUserHeight_34;
 	// UnityEngine.Camera[] Rufus31415.WebXR.SimpleWebXR::_cameras
-	CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* ____cameras_31;
+	CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* ____cameras_35;
 	// System.Boolean Rufus31415.WebXR.SimpleWebXR::_shouldRestoreMainCameraProperties
-	bool ____shouldRestoreMainCameraProperties_32;
+	bool ____shouldRestoreMainCameraProperties_36;
 	// UnityEngine.Color Rufus31415.WebXR.SimpleWebXR::_mainCameraBackgroundColor
-	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ____mainCameraBackgroundColor_33;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ____mainCameraBackgroundColor_37;
 	// UnityEngine.CameraClearFlags Rufus31415.WebXR.SimpleWebXR::_mainCameraClearFlags
-	int32_t ____mainCameraClearFlags_34;
+	int32_t ____mainCameraClearFlags_38;
 	// UnityEngine.Matrix4x4 Rufus31415.WebXR.SimpleWebXR::_mainCameraProjectionMatrix
-	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ____mainCameraProjectionMatrix_35;
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ____mainCameraProjectionMatrix_39;
 	// UnityEngine.Rect Rufus31415.WebXR.SimpleWebXR::_mainCameraRect
-	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ____mainCameraRect_36;
+	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ____mainCameraRect_40;
 	// System.Single[] Rufus31415.WebXR.SimpleWebXR::_orientationArray
-	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ____orientationArray_39;
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ____orientationArray_43;
 	// System.Byte[] Rufus31415.WebXR.SimpleWebXR::_orientationInfo
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____orientationInfo_40;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____orientationInfo_44;
 	// System.Boolean Rufus31415.WebXR.SimpleWebXR::_orientationDeviceStarted
-	bool ____orientationDeviceStarted_41;
+	bool ____orientationDeviceStarted_45;
 };
 
 // SpinFree
@@ -2824,8 +2832,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SimpleWebXR_Stringify_mFACD299DD772
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* SimpleWebXR_get_RightEye_m2FB35F84C033EFF599A034DB2836611D07521B2B (const RuntimeMethod* method) ;
 // Rufus31415.WebXR.SimpleWebXR/WebXRViewEyes Rufus31415.WebXR.SimpleWebXR::get_ViewEye()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SimpleWebXR_get_ViewEye_m13B9E12D5982D33A64035830D84BD5F78284DF3F (const RuntimeMethod* method) ;
-// UnityEngine.Camera UnityEngine.Camera::get_main()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* Camera_get_main_mF222B707D3BF8CC9C7544609EFC71CFB62E81D43 (const RuntimeMethod* method) ;
 // System.Void UnityEngine.Camera::set_backgroundColor(UnityEngine.Color)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Camera_set_backgroundColor_m036FD8C316A93A0B168ACC89AFF16D396B872138 (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___value0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Camera::set_clearFlags(UnityEngine.CameraClearFlags)
@@ -2880,8 +2886,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_localPosition_mDE1C997F7D7
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 SimpleWebXR_ToUnityRotation_m2BE6903D0CA9C5407A1B4785A6E850F7CC93E907 (float ___x0, float ___y1, float ___z2, float ___w3, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Transform::set_localRotation(UnityEngine.Quaternion)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___value0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Transform::LookAt(UnityEngine.Transform)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_LookAt_mA8567593181FD78BBDC2AF29AD99F93BDB2976B2 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___target0, const RuntimeMethod* method) ;
 // System.Void Rufus31415.WebXR.SimpleWebXR::RaiseInputSourceEvent(System.Byte,Rufus31415.WebXR.SimpleWebXR/WebXRInputSourceEventTypes,Rufus31415.WebXR.WebXRInputEvent,UnityEngine.Events.UnityEvent,Rufus31415.WebXR.WebXRInputSource)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleWebXR_RaiseInputSourceEvent_mADAB1C60124B0F56839CF77CC72521C0D9E3F1E7 (uint8_t ___mask0, int32_t ___type1, WebXRInputEvent_t0935517504234FA6AE34655B93BBBB4C31070CA2* ___webxrInputEvent2, UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___unityEvent3, WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* ___inputSource4, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Transform::set_position(UnityEngine.Vector3)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___value0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Transform::set_rotation(UnityEngine.Quaternion)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___value0, const RuntimeMethod* method) ;
 // System.Void Rufus31415.WebXR.SimpleWebXR::CheckPan()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleWebXR_CheckPan_mEC7A02C6D75A43E748595A7C6ECF827DD2532004 (const RuntimeMethod* method) ;
 // System.Void UnityEngine.Vector3::.ctor(System.Single,System.Single,System.Single)
@@ -2896,10 +2908,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_localScale_mBA79E811BAF6C4
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Transform::RotateAround(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_RotateAround_m489C5BE8B8B15D0A5F4863DE6D23FF2CC8FA76C6 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___point0, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___axis1, float ___angle2, const RuntimeMethod* method) ;
-// System.Void UnityEngine.Transform::set_position(UnityEngine.Vector3)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___value0, const RuntimeMethod* method) ;
-// System.Void UnityEngine.Transform::set_rotation(UnityEngine.Quaternion)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___value0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`1<Rufus31415.WebXR.WebXRInputSource>::Invoke(T0)
 inline void UnityEvent_1_Invoke_m3B1407A043A3EC9ED3B5AD3C463C7ECDEB184FFA (UnityEvent_1_t31C888F8C44DDB8B9B493BBADBD76F323F2ACD22* __this, WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* ___arg00, const RuntimeMethod* method)
 {
@@ -3345,12 +3353,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleWebXR_LateUpdate_mF14A80E845AE1973
 	}
 	{
 		// _referenceSpace = ReferenceSpace;
-		int32_t L_0 = __this->___ReferenceSpace_9;
+		int32_t L_0 = __this->___ReferenceSpace_13;
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____referenceSpace_29 = L_0;
+		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____referenceSpace_33 = L_0;
 		// _fallbackUserHeight = FallbackUserHeight;
-		float L_1 = __this->___FallbackUserHeight_10;
-		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____fallbackUserHeight_30 = L_1;
+		float L_1 = __this->___FallbackUserHeight_14;
+		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____fallbackUserHeight_34 = L_1;
 		// UpdateWebXR();
 		SimpleWebXR_UpdateWebXR_mC0D40DDB73AF35F8BA70804DFC95F455CBD67225(NULL);
 		// }
@@ -3513,7 +3521,7 @@ IL_006a:
 
 IL_007c:
 	{
-		// GUI.Label(new Rect((Screen.width - width) / 2, Screen.height - (height*4), width, height), "WebXR is not supported on this device.");
+		// GUI.Label(new Rect((Screen.width - width) / 2, Screen.height - (height*5), width, height), "WebXR is not supported on this device.");
 		int32_t L_15;
 		L_15 = Screen_get_width_mCA5D955A53CF6D29C8C7118D517D0FC84AE8056C(NULL);
 		int32_t L_16 = V_0;
@@ -3524,7 +3532,7 @@ IL_007c:
 		int32_t L_20 = V_1;
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_21;
 		memset((&L_21), 0, sizeof(L_21));
-		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23((&L_21), ((float)((int32_t)(((int32_t)il2cpp_codegen_subtract(L_15, L_16))/2))), ((float)((int32_t)il2cpp_codegen_subtract(L_17, ((int32_t)il2cpp_codegen_multiply(L_18, 4))))), ((float)L_19), ((float)L_20), /*hidden argument*/NULL);
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23((&L_21), ((float)((int32_t)(((int32_t)il2cpp_codegen_subtract(L_15, L_16))/2))), ((float)((int32_t)il2cpp_codegen_subtract(L_17, ((int32_t)il2cpp_codegen_multiply(L_18, 5))))), ((float)L_19), ((float)L_20), /*hidden argument*/NULL);
 		il2cpp_codegen_runtime_class_init_inline(GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
 		GUI_Label_mF161ED74A26AEC05C8A56F0B95F78482CE7ED5C7(L_21, _stringLiteral4A38EC11DC1C955EA0CEE4C12FC60C052E80889D, NULL);
 	}
@@ -3547,7 +3555,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SimpleWebXR_get_InSession_mFD2BBB222D464
 	{
 		// public static bool InSession { get; private set; }
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		bool L_0 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___U3CInSessionU3Ek__BackingField_11;
+		bool L_0 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___U3CInSessionU3Ek__BackingField_15;
 		return L_0;
 	}
 }
@@ -3564,7 +3572,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleWebXR_set_InSession_mB6B03A226702F
 		// public static bool InSession { get; private set; }
 		bool L_0 = ___value0;
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___U3CInSessionU3Ek__BackingField_11 = L_0;
+		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___U3CInSessionU3Ek__BackingField_15 = L_0;
 		return;
 	}
 }
@@ -3580,7 +3588,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float SimpleWebXR_get_UserHeight_m036B1DAE2FA
 	{
 		// public static float UserHeight => _dataArray[100];
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_0 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_0 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
 		int32_t L_1 = ((int32_t)100);
 		float L_2 = (L_0)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_1));
 		return L_2;
@@ -3598,7 +3606,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E
 	{
 		// public static Camera LeftEye => _cameras[0];
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_0 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____cameras_31;
+		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_0 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____cameras_35;
 		int32_t L_1 = 0;
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_2 = (L_0)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_1));
 		return L_2;
@@ -3616,7 +3624,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E
 	{
 		// public static Camera RightEye => _cameras[1];
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_0 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____cameras_31;
+		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_0 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____cameras_35;
 		int32_t L_1 = 1;
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_2 = (L_0)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_1));
 		return L_2;
@@ -3634,7 +3642,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SimpleWebXR_get_HitTestInProgress_mCF6D4
 	{
 		// public static bool HitTestInProgress => _byteArray[48] != 0;
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____byteArray_27;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____byteArray_31;
 		int32_t L_1 = ((int32_t)48);
 		uint8_t L_2 = (L_0)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_1));
 		return (bool)((!(((uint32_t)L_2) <= ((uint32_t)0)))? 1 : 0);
@@ -3652,7 +3660,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SimpleWebXR_get_HitTestSupported_m31224F
 	{
 		// public static bool HitTestSupported => _byteArray[49] != 0;
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____byteArray_27;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____byteArray_31;
 		int32_t L_1 = ((int32_t)49);
 		uint8_t L_2 = (L_0)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_1));
 		return (bool)((!(((uint32_t)L_2) <= ((uint32_t)0)))? 1 : 0);
@@ -3670,7 +3678,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleWebXR_Initialize_m4F318842651DECDD
 	{
 		// if (_initialized) return;
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		bool L_0 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____initialized_25;
+		bool L_0 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____initialized_29;
 		if (!L_0)
 		{
 			goto IL_0008;
@@ -3685,15 +3693,15 @@ IL_0008:
 	{
 		// InitWebXR(_dataArray, _dataArray.Length, _byteArray, _byteArray.Length, _handData, _handData.Length);
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_1 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_2 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____byteArray_27;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____byteArray_27;
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_5 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____handData_28;
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_6 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____handData_28;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_1 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_2 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____byteArray_31;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____byteArray_31;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_5 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____handData_32;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_6 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____handData_32;
 		SimpleWebXR_InitWebXR_m4133B55C32518F147897ED2F150171EC8CA4122A(L_1, ((int32_t)(((RuntimeArray*)L_2)->max_length)), L_3, ((int32_t)(((RuntimeArray*)L_4)->max_length)), L_5, ((int32_t)(((RuntimeArray*)L_6)->max_length)), NULL);
 		// _initialized = true;
-		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____initialized_25 = (bool)1;
+		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____initialized_29 = (bool)1;
 		// }
 		return;
 	}
@@ -3717,14 +3725,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F9
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* L_1 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___RightInput_15;
+		WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* L_1 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___RightInput_19;
 		return L_1;
 	}
 
 IL_0009:
 	{
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* L_2 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___LeftInput_14;
+		WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* L_2 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___LeftInput_18;
 		return L_2;
 	}
 }
@@ -3987,68 +3995,75 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleWebXR_UpdateWebXR_mC0D40DDB73AF35F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// UpdateCamera(WebXRViewEyes.Left);
+		// var xr = GetInstance();
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
+		SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8* L_0;
+		L_0 = SimpleWebXR_GetInstance_mF7E17097D73018D1F9BEF11A6296EEE6BE53AD4B(NULL);
+		// activeCamera = xr.mainCamera;
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_1 = L_0->___mainCamera_10;
+		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___activeCamera_12 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___activeCamera_12), (void*)L_1);
+		// UpdateCamera(WebXRViewEyes.Left);
 		SimpleWebXR_UpdateCamera_m6AE168CE0912AF0537211F92AAC96AE93A38B4BB(1, NULL);
 		// UpdateCamera(WebXRViewEyes.Right);
 		SimpleWebXR_UpdateCamera_m6AE168CE0912AF0537211F92AAC96AE93A38B4BB(2, NULL);
 		// UpdateInput(LeftInput);
-		WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* L_0 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___LeftInput_14;
-		SimpleWebXR_UpdateInput_m6504E2414E9072F70E964A09FAB91B88B4B7F0E7(L_0, NULL);
+		WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* L_2 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___LeftInput_18;
+		SimpleWebXR_UpdateInput_m6504E2414E9072F70E964A09FAB91B88B4B7F0E7(L_2, NULL);
 		// UpdateInput(RightInput);
-		WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* L_1 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___RightInput_15;
-		SimpleWebXR_UpdateInput_m6504E2414E9072F70E964A09FAB91B88B4B7F0E7(L_1, NULL);
+		WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* L_3 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___RightInput_19;
+		SimpleWebXR_UpdateInput_m6504E2414E9072F70E964A09FAB91B88B4B7F0E7(L_3, NULL);
 		// LeftInput.Available = _byteArray[44] != 0;
-		WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* L_2 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___LeftInput_14;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____byteArray_27;
-		int32_t L_4 = ((int32_t)44);
-		uint8_t L_5 = (L_3)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_4));
-		L_2->___Available_7 = (bool)((!(((uint32_t)L_5) <= ((uint32_t)0)))? 1 : 0);
+		WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* L_4 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___LeftInput_18;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_5 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____byteArray_31;
+		int32_t L_6 = ((int32_t)44);
+		uint8_t L_7 = (L_5)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_6));
+		L_4->___Available_7 = (bool)((!(((uint32_t)L_7) <= ((uint32_t)0)))? 1 : 0);
 		// RightInput.Available = _byteArray[45] != 0;
-		WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* L_6 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___RightInput_15;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_7 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____byteArray_27;
-		int32_t L_8 = ((int32_t)45);
-		uint8_t L_9 = (L_7)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_8));
-		L_6->___Available_7 = (bool)((!(((uint32_t)L_9) <= ((uint32_t)0)))? 1 : 0);
+		WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* L_8 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___RightInput_19;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_9 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____byteArray_31;
+		int32_t L_10 = ((int32_t)45);
+		uint8_t L_11 = (L_9)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_10));
+		L_8->___Available_7 = (bool)((!(((uint32_t)L_11) <= ((uint32_t)0)))? 1 : 0);
 		// if (_byteArray[3] != 0)
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_10 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____byteArray_27;
-		int32_t L_11 = 3;
-		uint8_t L_12 = (L_10)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_11));
-		if (!L_12)
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_12 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____byteArray_31;
+		int32_t L_13 = 3;
+		uint8_t L_14 = (L_12)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_13));
+		if (!L_14)
 		{
-			goto IL_0065;
+			goto IL_0074;
 		}
 	}
 	{
 		// InputSourcesChange.Invoke();
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_13 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___InputSourcesChange_22;
-		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_13, NULL);
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_15 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___InputSourcesChange_26;
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_15, NULL);
 		// _byteArray[3] = 0;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_14 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____byteArray_27;
-		(L_14)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(3), (uint8_t)0);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_16 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____byteArray_31;
+		(L_16)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(3), (uint8_t)0);
 	}
 
-IL_0065:
+IL_0074:
 	{
 		// UpdateHitTest();
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
 		SimpleWebXR_UpdateHitTest_m9DB0AD3038638D0B716A10AC65408A68A27D179E(NULL);
 		// if (InternalInSession && !InSession) //New session detected
-		bool L_15;
-		L_15 = SimpleWebXR_get_InternalInSession_mCFACE9888E4D3BDD7398E7A5DC9C01207574B806(NULL);
-		if (!L_15)
+		bool L_17;
+		L_17 = SimpleWebXR_get_InternalInSession_mCFACE9888E4D3BDD7398E7A5DC9C01207574B806(NULL);
+		if (!L_17)
 		{
-			goto IL_0089;
+			goto IL_0098;
 		}
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		bool L_16;
-		L_16 = SimpleWebXR_get_InSession_mFD2BBB222D464D01D01161E7B824A771BBB30FA4_inline(NULL);
-		if (L_16)
+		bool L_18;
+		L_18 = SimpleWebXR_get_InSession_mFD2BBB222D464D01D01161E7B824A771BBB30FA4_inline(NULL);
+		if (L_18)
 		{
-			goto IL_0089;
+			goto IL_0098;
 		}
 	}
 	{
@@ -4056,29 +4071,29 @@ IL_0065:
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
 		SimpleWebXR_set_InSession_mB6B03A226702FC9BE264B9AADD5DEDEF06DD220D_inline((bool)1, NULL);
 		// SessionStart.Invoke();
-		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_17 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___SessionStart_12;
-		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_17, NULL);
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_19 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___SessionStart_16;
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_19, NULL);
 		return;
 	}
 
-IL_0089:
+IL_0098:
 	{
 		// else if (InSession && !InternalInSession) // End of session detected
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		bool L_18;
-		L_18 = SimpleWebXR_get_InSession_mFD2BBB222D464D01D01161E7B824A771BBB30FA4_inline(NULL);
-		if (!L_18)
+		bool L_20;
+		L_20 = SimpleWebXR_get_InSession_mFD2BBB222D464D01D01161E7B824A771BBB30FA4_inline(NULL);
+		if (!L_20)
 		{
-			goto IL_00a7;
+			goto IL_00b6;
 		}
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		bool L_19;
-		L_19 = SimpleWebXR_get_InternalInSession_mCFACE9888E4D3BDD7398E7A5DC9C01207574B806(NULL);
-		if (L_19)
+		bool L_21;
+		L_21 = SimpleWebXR_get_InternalInSession_mCFACE9888E4D3BDD7398E7A5DC9C01207574B806(NULL);
+		if (L_21)
 		{
-			goto IL_00a7;
+			goto IL_00b6;
 		}
 	}
 	{
@@ -4086,11 +4101,11 @@ IL_0089:
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
 		SimpleWebXR_set_InSession_mB6B03A226702FC9BE264B9AADD5DEDEF06DD220D_inline((bool)0, NULL);
 		// SessionEnd.Invoke();
-		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_20 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___SessionEnd_13;
-		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_20, NULL);
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_22 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___SessionEnd_17;
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_22, NULL);
 	}
 
-IL_00a7:
+IL_00b6:
 	{
 		// }
 		return;
@@ -4108,12 +4123,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleWebXR_HapticPulse_m69EB5C88533B76A
 	{
 		// _dataArray[101 + (int)hand] = intensity;
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_0 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_0 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
 		int32_t L_1 = ___hand0;
 		float L_2 = ___intensity1;
 		(L_0)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(((int32_t)101), (int32_t)L_1))), (float)L_2);
 		// _dataArray[103 + (int)hand] = duration;
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_3 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_3 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
 		int32_t L_4 = ___hand0;
 		float L_5 = ___duration2;
 		(L_3)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(((int32_t)103), (int32_t)L_4))), (float)L_5);
@@ -4306,14 +4321,14 @@ IL_0071:
 		L_29 = StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88(L_26, L_28, NULL);
 		// sb.Append(LeftInput.ToString());
 		StringBuilder_t* L_30 = L_26;
-		WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* L_31 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___LeftInput_14;
+		WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* L_31 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___LeftInput_18;
 		String_t* L_32;
 		L_32 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_31);
 		StringBuilder_t* L_33;
 		L_33 = StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D(L_30, L_32, NULL);
 		// sb.Append(RightInput.ToString());
 		StringBuilder_t* L_34 = L_30;
-		WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* L_35 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___RightInput_15;
+		WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* L_35 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___RightInput_19;
 		String_t* L_36;
 		L_36 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_35);
 		StringBuilder_t* L_37;
@@ -4336,7 +4351,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SimpleWebXR_get_ViewEye_m13B9E12D5982
 	{
 		// private static WebXRViewEyes ViewEye => (WebXRViewEyes)_byteArray[0];
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____byteArray_27;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____byteArray_31;
 		int32_t L_1 = 0;
 		uint8_t L_2 = (L_0)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_1));
 		return (int32_t)(L_2);
@@ -4354,7 +4369,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SimpleWebXR_get_InternalInSession_mCFACE
 	{
 		// private static bool InternalInSession => _byteArray[0] != 0;
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____byteArray_27;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____byteArray_31;
 		int32_t L_1 = 0;
 		uint8_t L_2 = (L_0)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_1));
 		return (bool)((!(((uint32_t)L_2) <= ((uint32_t)0)))? 1 : 0);
@@ -4418,7 +4433,7 @@ IL_0008:
 	{
 		// if (_cameras[id])
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_4 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____cameras_31;
+		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_4 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____cameras_35;
 		int32_t L_5 = V_0;
 		int32_t L_6 = L_5;
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_7 = (L_4)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_6));
@@ -4441,33 +4456,29 @@ IL_0008:
 	{
 		// if (_shouldRestoreMainCameraProperties)
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		bool L_10 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____shouldRestoreMainCameraProperties_32;
+		bool L_10 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____shouldRestoreMainCameraProperties_36;
 		if (!L_10)
 		{
 			goto IL_007b;
 		}
 	}
 	{
-		// Camera.main.backgroundColor = _mainCameraBackgroundColor;
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_11;
-		L_11 = Camera_get_main_mF222B707D3BF8CC9C7544609EFC71CFB62E81D43(NULL);
+		// activeCamera.backgroundColor = _mainCameraBackgroundColor;
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_12 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____mainCameraBackgroundColor_33;
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_11 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___activeCamera_12;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_12 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____mainCameraBackgroundColor_37;
 		Camera_set_backgroundColor_m036FD8C316A93A0B168ACC89AFF16D396B872138(L_11, L_12, NULL);
-		// Camera.main.clearFlags = _mainCameraClearFlags;
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_13;
-		L_13 = Camera_get_main_mF222B707D3BF8CC9C7544609EFC71CFB62E81D43(NULL);
-		int32_t L_14 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____mainCameraClearFlags_34;
+		// activeCamera.clearFlags = _mainCameraClearFlags;
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_13 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___activeCamera_12;
+		int32_t L_14 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____mainCameraClearFlags_38;
 		Camera_set_clearFlags_m66541D9CC43CBAA5FE7364A50D43CA5569FD4D93(L_13, L_14, NULL);
-		// Camera.main.projectionMatrix = _mainCameraProjectionMatrix;
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_15;
-		L_15 = Camera_get_main_mF222B707D3BF8CC9C7544609EFC71CFB62E81D43(NULL);
-		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_16 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____mainCameraProjectionMatrix_35;
+		// activeCamera.projectionMatrix = _mainCameraProjectionMatrix;
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_15 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___activeCamera_12;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_16 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____mainCameraProjectionMatrix_39;
 		Camera_set_projectionMatrix_m351820E6903139402FFFF40221B32D0C52B5A094(L_15, L_16, NULL);
-		// Camera.main.rect = _mainCameraRect;
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_17;
-		L_17 = Camera_get_main_mF222B707D3BF8CC9C7544609EFC71CFB62E81D43(NULL);
-		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_18 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____mainCameraRect_36;
+		// activeCamera.rect = _mainCameraRect;
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_17 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___activeCamera_12;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_18 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____mainCameraRect_40;
 		Camera_set_rect_mA81158BC169AF8674DE240AE9460FC5A0EADBB19(L_17, L_18, NULL);
 		goto IL_007b;
 	}
@@ -4476,7 +4487,7 @@ IL_006a:
 	{
 		// Destroy(_cameras[id].gameObject);
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_19 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____cameras_31;
+		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_19 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____cameras_35;
 		int32_t L_20 = V_0;
 		int32_t L_21 = L_20;
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_22 = (L_19)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_21));
@@ -4490,7 +4501,7 @@ IL_007b:
 	{
 		// _cameras[id] = null;
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_24 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____cameras_31;
+		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_24 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____cameras_35;
 		int32_t L_25 = V_0;
 		ArrayElementTypeCheck (L_24, NULL);
 		(L_24)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_25), (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184*)NULL);
@@ -4506,7 +4517,7 @@ IL_0084:
 	{
 		// if (!_cameras[id])
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_26 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____cameras_31;
+		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_26 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____cameras_35;
 		int32_t L_27 = V_0;
 		int32_t L_28 = L_27;
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_29 = (L_26)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_28));
@@ -4527,14 +4538,12 @@ IL_0084:
 		}
 	}
 	{
-		// _cameras[id] = Instantiate(Camera.main, Camera.main.gameObject.transform.parent);
+		// _cameras[id] = Instantiate(activeCamera, activeCamera.gameObject.transform.parent);
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_32 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____cameras_31;
+		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_32 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____cameras_35;
 		int32_t L_33 = V_0;
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_34;
-		L_34 = Camera_get_main_mF222B707D3BF8CC9C7544609EFC71CFB62E81D43(NULL);
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_35;
-		L_35 = Camera_get_main_mF222B707D3BF8CC9C7544609EFC71CFB62E81D43(NULL);
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_34 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___activeCamera_12;
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_35 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___activeCamera_12;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_36;
 		L_36 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_35, NULL);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_37;
@@ -4547,7 +4556,7 @@ IL_0084:
 		ArrayElementTypeCheck (L_32, L_39);
 		(L_32)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_33), (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184*)L_39);
 		// _cameras[id].name = "WebXRCamera_" + id;
-		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_40 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____cameras_31;
+		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_40 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____cameras_35;
 		int32_t L_41 = V_0;
 		int32_t L_42 = L_41;
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_43 = (L_40)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_42));
@@ -4556,13 +4565,12 @@ IL_0084:
 		String_t* L_45;
 		L_45 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(_stringLiteral77CB7008750A68624D71AF5BC10AB4DC001E82BF, L_44, NULL);
 		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_43, L_45, NULL);
-		// _cameras[id].depth = Camera.main.depth - 1;
-		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_46 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____cameras_31;
+		// _cameras[id].depth = activeCamera.depth - 1;
+		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_46 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____cameras_35;
 		int32_t L_47 = V_0;
 		int32_t L_48 = L_47;
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_49 = (L_46)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_48));
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_50;
-		L_50 = Camera_get_main_mF222B707D3BF8CC9C7544609EFC71CFB62E81D43(NULL);
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_50 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___activeCamera_12;
 		float L_51;
 		L_51 = Camera_get_depth_mDF67FFF8ED61750467DFC4C6D8F236850AD1BB1D(L_50, NULL);
 		Camera_set_depth_m595FA2A4FEBC90E730810BBFB55E4A2C2134066F(L_49, ((float)il2cpp_codegen_subtract(L_51, (1.0f))), NULL);
@@ -4573,10 +4581,9 @@ IL_00f9:
 	{
 		// _shouldRestoreMainCameraProperties = false;
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____shouldRestoreMainCameraProperties_32 = (bool)0;
-		// if (Camera.main)
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_52;
-		L_52 = Camera_get_main_mF222B707D3BF8CC9C7544609EFC71CFB62E81D43(NULL);
+		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____shouldRestoreMainCameraProperties_36 = (bool)0;
+		// if (activeCamera)
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_52 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___activeCamera_12;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_53;
 		L_53 = Object_op_Implicit_m18E1885C296CC868AC918101523697CFE6413C79(L_52, NULL);
@@ -4586,39 +4593,34 @@ IL_00f9:
 		}
 	}
 	{
-		// _cameras[0] = Camera.main;
+		// _cameras[0] = activeCamera;
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_54 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____cameras_31;
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_55;
-		L_55 = Camera_get_main_mF222B707D3BF8CC9C7544609EFC71CFB62E81D43(NULL);
+		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_54 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____cameras_35;
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_55 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___activeCamera_12;
 		ArrayElementTypeCheck (L_54, L_55);
 		(L_54)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184*)L_55);
 		// _shouldRestoreMainCameraProperties = true;
-		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____shouldRestoreMainCameraProperties_32 = (bool)1;
-		// _mainCameraBackgroundColor = Camera.main.backgroundColor;
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_56;
-		L_56 = Camera_get_main_mF222B707D3BF8CC9C7544609EFC71CFB62E81D43(NULL);
+		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____shouldRestoreMainCameraProperties_36 = (bool)1;
+		// _mainCameraBackgroundColor = activeCamera.backgroundColor;
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_56 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___activeCamera_12;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_57;
 		L_57 = Camera_get_backgroundColor_m1577A81D1E6A91D7934CECB8A284AA2D4704D96F(L_56, NULL);
-		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____mainCameraBackgroundColor_33 = L_57;
-		// _mainCameraClearFlags = Camera.main.clearFlags;
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_58;
-		L_58 = Camera_get_main_mF222B707D3BF8CC9C7544609EFC71CFB62E81D43(NULL);
+		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____mainCameraBackgroundColor_37 = L_57;
+		// _mainCameraClearFlags = activeCamera.clearFlags;
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_58 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___activeCamera_12;
 		int32_t L_59;
 		L_59 = Camera_get_clearFlags_mA74F538C124B391EF03C46A50CA7FF7B505B7602(L_58, NULL);
-		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____mainCameraClearFlags_34 = L_59;
-		// _mainCameraProjectionMatrix = Camera.main.projectionMatrix;
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_60;
-		L_60 = Camera_get_main_mF222B707D3BF8CC9C7544609EFC71CFB62E81D43(NULL);
+		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____mainCameraClearFlags_38 = L_59;
+		// _mainCameraProjectionMatrix = activeCamera.projectionMatrix;
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_60 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___activeCamera_12;
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_61;
 		L_61 = Camera_get_projectionMatrix_m9B943EFDD6418528A055321E14F75F1511DD9B4A(L_60, NULL);
-		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____mainCameraProjectionMatrix_35 = L_61;
-		// _mainCameraRect = Camera.main.rect;
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_62;
-		L_62 = Camera_get_main_mF222B707D3BF8CC9C7544609EFC71CFB62E81D43(NULL);
+		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____mainCameraProjectionMatrix_39 = L_61;
+		// _mainCameraRect = activeCamera.rect;
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_62 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___activeCamera_12;
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_63;
 		L_63 = Camera_get_rect_m848C23B32814D1351E43F0A0110DB8ECA19C6772(L_62, NULL);
-		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____mainCameraRect_36 = L_63;
+		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____mainCameraRect_40 = L_63;
 		goto IL_0175;
 	}
 
@@ -4630,7 +4632,7 @@ IL_015b:
 		V_4 = L_64;
 		// _cameras[0] = go.AddComponent<Camera>();
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_65 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____cameras_31;
+		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_65 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____cameras_35;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_66 = V_4;
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_67;
 		L_67 = GameObject_AddComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m0933BC50E883CDEF6FA83FE190DA37CCB2802142(L_66, GameObject_AddComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m0933BC50E883CDEF6FA83FE190DA37CCB2802142_RuntimeMethod_var);
@@ -4652,13 +4654,13 @@ IL_0175:
 	{
 		// _cameras[id].clearFlags = CameraClearFlags.SolidColor;
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_69 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____cameras_31;
+		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_69 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____cameras_35;
 		int32_t L_70 = V_0;
 		int32_t L_71 = L_70;
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_72 = (L_69)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_71));
 		Camera_set_clearFlags_m66541D9CC43CBAA5FE7364A50D43CA5569FD4D93(L_72, 2, NULL);
 		// _cameras[id].backgroundColor = new Color(0, 0, 0, 0);
-		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_73 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____cameras_31;
+		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_73 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____cameras_35;
 		int32_t L_74 = V_0;
 		int32_t L_75 = L_74;
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_76 = (L_73)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_75));
@@ -4675,19 +4677,19 @@ IL_01ae:
 		V_1 = ((int32_t)il2cpp_codegen_multiply(L_78, ((int32_t)27)));
 		// var rect = new Rect(_dataArray[floatStartId + 23], _dataArray[floatStartId + 24], _dataArray[floatStartId + 25], _dataArray[floatStartId + 26]);
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_79 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_79 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
 		int32_t L_80 = V_1;
 		int32_t L_81 = ((int32_t)il2cpp_codegen_add(L_80, ((int32_t)23)));
 		float L_82 = (L_79)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_81));
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_83 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_83 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
 		int32_t L_84 = V_1;
 		int32_t L_85 = ((int32_t)il2cpp_codegen_add(L_84, ((int32_t)24)));
 		float L_86 = (L_83)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_85));
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_87 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_87 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
 		int32_t L_88 = V_1;
 		int32_t L_89 = ((int32_t)il2cpp_codegen_add(L_88, ((int32_t)25)));
 		float L_90 = (L_87)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_89));
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_91 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_91 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
 		int32_t L_92 = V_1;
 		int32_t L_93 = ((int32_t)il2cpp_codegen_add(L_92, ((int32_t)26)));
 		float L_94 = (L_91)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_93));
@@ -4702,7 +4704,7 @@ IL_01ae:
 	{
 		// if (_cameras[0] && _cameras[0].rect == rect)
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_96 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____cameras_31;
+		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_96 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____cameras_35;
 		int32_t L_97 = 0;
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_98 = (L_96)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_97));
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -4715,7 +4717,7 @@ IL_01ae:
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_100 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____cameras_31;
+		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_100 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____cameras_35;
 		int32_t L_101 = 0;
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_102 = (L_100)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_101));
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_103;
@@ -4731,7 +4733,7 @@ IL_01ae:
 	{
 		// _cameras[id].gameObject.SetActive(false);
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_106 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____cameras_31;
+		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_106 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____cameras_35;
 		int32_t L_107 = V_0;
 		int32_t L_108 = L_107;
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_109 = (L_106)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_108));
@@ -4746,7 +4748,7 @@ IL_021b:
 	{
 		// _cameras[id].gameObject.SetActive(true);
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_111 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____cameras_31;
+		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_111 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____cameras_35;
 		int32_t L_112 = V_0;
 		int32_t L_113 = L_112;
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_114 = (L_111)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_113));
@@ -4759,7 +4761,7 @@ IL_022d:
 	{
 		// _cameras[id].rect = rect;
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_116 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____cameras_31;
+		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_116 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____cameras_35;
 		int32_t L_117 = V_0;
 		int32_t L_118 = L_117;
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_119 = (L_116)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_118));
@@ -4768,124 +4770,124 @@ IL_022d:
 		// var pm = new Matrix4x4();
 		il2cpp_codegen_initobj((&V_3), sizeof(Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6));
 		// pm.m00 = _dataArray[floatStartId + 0];
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_121 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_121 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
 		int32_t L_122 = V_1;
 		int32_t L_123 = L_122;
 		float L_124 = (L_121)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_123));
 		(&V_3)->___m00_0 = L_124;
 		// pm.m01 = _dataArray[floatStartId + 4];
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_125 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_125 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
 		int32_t L_126 = V_1;
 		int32_t L_127 = ((int32_t)il2cpp_codegen_add(L_126, 4));
 		float L_128 = (L_125)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_127));
 		(&V_3)->___m01_4 = L_128;
 		// pm.m02 = _dataArray[floatStartId + 8];
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_129 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_129 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
 		int32_t L_130 = V_1;
 		int32_t L_131 = ((int32_t)il2cpp_codegen_add(L_130, 8));
 		float L_132 = (L_129)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_131));
 		(&V_3)->___m02_8 = L_132;
 		// pm.m03 = _dataArray[floatStartId + 12];
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_133 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_133 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
 		int32_t L_134 = V_1;
 		int32_t L_135 = ((int32_t)il2cpp_codegen_add(L_134, ((int32_t)12)));
 		float L_136 = (L_133)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_135));
 		(&V_3)->___m03_12 = L_136;
 		// pm.m10 = _dataArray[floatStartId + 1];
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_137 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_137 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
 		int32_t L_138 = V_1;
 		int32_t L_139 = ((int32_t)il2cpp_codegen_add(L_138, 1));
 		float L_140 = (L_137)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_139));
 		(&V_3)->___m10_1 = L_140;
 		// pm.m11 = _dataArray[floatStartId + 5];
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_141 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_141 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
 		int32_t L_142 = V_1;
 		int32_t L_143 = ((int32_t)il2cpp_codegen_add(L_142, 5));
 		float L_144 = (L_141)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_143));
 		(&V_3)->___m11_5 = L_144;
 		// pm.m12 = _dataArray[floatStartId + 9];
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_145 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_145 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
 		int32_t L_146 = V_1;
 		int32_t L_147 = ((int32_t)il2cpp_codegen_add(L_146, ((int32_t)9)));
 		float L_148 = (L_145)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_147));
 		(&V_3)->___m12_9 = L_148;
 		// pm.m13 = _dataArray[floatStartId + 13];
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_149 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_149 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
 		int32_t L_150 = V_1;
 		int32_t L_151 = ((int32_t)il2cpp_codegen_add(L_150, ((int32_t)13)));
 		float L_152 = (L_149)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_151));
 		(&V_3)->___m13_13 = L_152;
 		// pm.m20 = _dataArray[floatStartId + 2];
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_153 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_153 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
 		int32_t L_154 = V_1;
 		int32_t L_155 = ((int32_t)il2cpp_codegen_add(L_154, 2));
 		float L_156 = (L_153)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_155));
 		(&V_3)->___m20_2 = L_156;
 		// pm.m21 = _dataArray[floatStartId + 6];
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_157 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_157 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
 		int32_t L_158 = V_1;
 		int32_t L_159 = ((int32_t)il2cpp_codegen_add(L_158, 6));
 		float L_160 = (L_157)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_159));
 		(&V_3)->___m21_6 = L_160;
 		// pm.m22 = _dataArray[floatStartId + 10];
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_161 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_161 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
 		int32_t L_162 = V_1;
 		int32_t L_163 = ((int32_t)il2cpp_codegen_add(L_162, ((int32_t)10)));
 		float L_164 = (L_161)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_163));
 		(&V_3)->___m22_10 = L_164;
 		// pm.m23 = _dataArray[floatStartId + 14];
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_165 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_165 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
 		int32_t L_166 = V_1;
 		int32_t L_167 = ((int32_t)il2cpp_codegen_add(L_166, ((int32_t)14)));
 		float L_168 = (L_165)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_167));
 		(&V_3)->___m23_14 = L_168;
 		// pm.m30 = _dataArray[floatStartId + 3];
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_169 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_169 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
 		int32_t L_170 = V_1;
 		int32_t L_171 = ((int32_t)il2cpp_codegen_add(L_170, 3));
 		float L_172 = (L_169)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_171));
 		(&V_3)->___m30_3 = L_172;
 		// pm.m31 = _dataArray[floatStartId + 7];
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_173 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_173 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
 		int32_t L_174 = V_1;
 		int32_t L_175 = ((int32_t)il2cpp_codegen_add(L_174, 7));
 		float L_176 = (L_173)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_175));
 		(&V_3)->___m31_7 = L_176;
 		// pm.m32 = _dataArray[floatStartId + 11];
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_177 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_177 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
 		int32_t L_178 = V_1;
 		int32_t L_179 = ((int32_t)il2cpp_codegen_add(L_178, ((int32_t)11)));
 		float L_180 = (L_177)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_179));
 		(&V_3)->___m32_11 = L_180;
 		// pm.m33 = _dataArray[floatStartId + 15];
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_181 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_181 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
 		int32_t L_182 = V_1;
 		int32_t L_183 = ((int32_t)il2cpp_codegen_add(L_182, ((int32_t)15)));
 		float L_184 = (L_181)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_183));
 		(&V_3)->___m33_15 = L_184;
 		// _cameras[id].projectionMatrix = pm;
-		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_185 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____cameras_31;
+		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_185 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____cameras_35;
 		int32_t L_186 = V_0;
 		int32_t L_187 = L_186;
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_188 = (L_185)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_187));
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_189 = V_3;
 		Camera_set_projectionMatrix_m351820E6903139402FFFF40221B32D0C52B5A094(L_188, L_189, NULL);
 		// _cameras[id].transform.localPosition = ToUnityPosition(_dataArray[floatStartId + 16], _dataArray[floatStartId + 17], _dataArray[floatStartId + 18]);
-		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_190 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____cameras_31;
+		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_190 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____cameras_35;
 		int32_t L_191 = V_0;
 		int32_t L_192 = L_191;
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_193 = (L_190)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_192));
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_194;
 		L_194 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_193, NULL);
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_195 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_195 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
 		int32_t L_196 = V_1;
 		int32_t L_197 = ((int32_t)il2cpp_codegen_add(L_196, ((int32_t)16)));
 		float L_198 = (L_195)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_197));
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_199 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_199 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
 		int32_t L_200 = V_1;
 		int32_t L_201 = ((int32_t)il2cpp_codegen_add(L_200, ((int32_t)17)));
 		float L_202 = (L_199)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_201));
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_203 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_203 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
 		int32_t L_204 = V_1;
 		int32_t L_205 = ((int32_t)il2cpp_codegen_add(L_204, ((int32_t)18)));
 		float L_206 = (L_203)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_205));
@@ -4893,31 +4895,51 @@ IL_022d:
 		L_207 = SimpleWebXR_ToUnityPosition_m08BBBFF1E8231620A6C02736ECABF74E3E554CCA(L_198, L_202, L_206, NULL);
 		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_194, L_207, NULL);
 		// _cameras[id].transform.localRotation = ToUnityRotation(_dataArray[floatStartId + 19], _dataArray[floatStartId + 20], _dataArray[floatStartId + 21], _dataArray[floatStartId + 22]);
-		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_208 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____cameras_31;
+		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_208 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____cameras_35;
 		int32_t L_209 = V_0;
 		int32_t L_210 = L_209;
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_211 = (L_208)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_210));
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_212;
 		L_212 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_211, NULL);
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_213 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_213 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
 		int32_t L_214 = V_1;
 		int32_t L_215 = ((int32_t)il2cpp_codegen_add(L_214, ((int32_t)19)));
 		float L_216 = (L_213)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_215));
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_217 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_217 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
 		int32_t L_218 = V_1;
 		int32_t L_219 = ((int32_t)il2cpp_codegen_add(L_218, ((int32_t)20)));
 		float L_220 = (L_217)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_219));
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_221 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_221 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
 		int32_t L_222 = V_1;
 		int32_t L_223 = ((int32_t)il2cpp_codegen_add(L_222, ((int32_t)21)));
 		float L_224 = (L_221)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_223));
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_225 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_225 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
 		int32_t L_226 = V_1;
 		int32_t L_227 = ((int32_t)il2cpp_codegen_add(L_226, ((int32_t)22)));
 		float L_228 = (L_225)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_227));
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_229;
 		L_229 = SimpleWebXR_ToUnityRotation_m2BE6903D0CA9C5407A1B4785A6E850F7CC93E907(L_216, L_220, L_224, L_228, NULL);
 		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_212, L_229, NULL);
+		// var xr = GetInstance();
+		SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8* L_230;
+		L_230 = SimpleWebXR_GetInstance_mF7E17097D73018D1F9BEF11A6296EEE6BE53AD4B(NULL);
+		// xr.myCorona.transform.LookAt(activeCamera.transform);
+		SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8* L_231 = L_230;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_232 = L_231->___myCorona_8;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_233;
+		L_233 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_232, NULL);
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_234 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___activeCamera_12;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_235;
+		L_235 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_234, NULL);
+		Transform_LookAt_mA8567593181FD78BBDC2AF29AD99F93BDB2976B2(L_233, L_235, NULL);
+		// xr.mySatelliteNameText.transform.LookAt(activeCamera.transform);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_236 = L_231->___mySatelliteNameText_9;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_237;
+		L_237 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_236, NULL);
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_238 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___activeCamera_12;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_239;
+		L_239 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_238, NULL);
+		Transform_LookAt_mA8567593181FD78BBDC2AF29AD99F93BDB2976B2(L_237, L_239, NULL);
 		// }
 		return;
 	}
@@ -4952,15 +4974,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleWebXR_UpdateInput_m6504E2414E9072F
 		// inputSource.Position = ToUnityPosition(_dataArray[floatStartId + 0], _dataArray[floatStartId + 1], _dataArray[floatStartId + 2]);
 		WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* L_4 = ___inputSource0;
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_5 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_5 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
 		int32_t L_6 = V_0;
 		int32_t L_7 = L_6;
 		float L_8 = (L_5)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_7));
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_9 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_9 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
 		int32_t L_10 = V_0;
 		int32_t L_11 = ((int32_t)il2cpp_codegen_add(L_10, 1));
 		float L_12 = (L_9)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_11));
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_13 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_13 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
 		int32_t L_14 = V_0;
 		int32_t L_15 = ((int32_t)il2cpp_codegen_add(L_14, 2));
 		float L_16 = (L_13)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_15));
@@ -4969,19 +4991,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleWebXR_UpdateInput_m6504E2414E9072F
 		L_4->___Position_10 = L_17;
 		// inputSource.Rotation = ToUnityRotation(_dataArray[floatStartId + 3], _dataArray[floatStartId + 4], _dataArray[floatStartId + 5], _dataArray[floatStartId + 6]);
 		WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* L_18 = ___inputSource0;
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_19 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_19 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
 		int32_t L_20 = V_0;
 		int32_t L_21 = ((int32_t)il2cpp_codegen_add(L_20, 3));
 		float L_22 = (L_19)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_21));
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_23 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_23 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
 		int32_t L_24 = V_0;
 		int32_t L_25 = ((int32_t)il2cpp_codegen_add(L_24, 4));
 		float L_26 = (L_23)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_25));
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_27 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_27 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
 		int32_t L_28 = V_0;
 		int32_t L_29 = ((int32_t)il2cpp_codegen_add(L_28, 5));
 		float L_30 = (L_27)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_29));
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_31 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_31 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
 		int32_t L_32 = V_0;
 		int32_t L_33 = ((int32_t)il2cpp_codegen_add(L_32, 6));
 		float L_34 = (L_31)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_33));
@@ -4990,7 +5012,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleWebXR_UpdateInput_m6504E2414E9072F
 		L_18->___Rotation_11 = L_35;
 		// inputSource.IsPositionTracked = (_byteArray[byteStartId + 0] != 0);
 		WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* L_36 = ___inputSource0;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_37 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____byteArray_27;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_37 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____byteArray_31;
 		int32_t L_38 = V_1;
 		int32_t L_39 = L_38;
 		uint8_t L_40 = (L_37)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_39));
@@ -5000,7 +5022,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleWebXR_UpdateInput_m6504E2414E9072F
 		int32_t L_42 = L_41->___Handedness_8;
 		V_2 = ((int32_t)il2cpp_codegen_add((int32_t)L_42, 1));
 		// var mask = _byteArray[eventId];
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_43 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____byteArray_27;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_43 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____byteArray_31;
 		int32_t L_44 = V_2;
 		int32_t L_45 = L_44;
 		uint8_t L_46 = (L_43)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_45));
@@ -5016,48 +5038,48 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleWebXR_UpdateInput_m6504E2414E9072F
 		// RaiseInputSourceEvent(mask, WebXRInputSourceEventTypes.Select, InputSourceSelect, inputSource.Select, inputSource);
 		uint8_t L_48 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		WebXRInputEvent_t0935517504234FA6AE34655B93BBBB4C31070CA2* L_49 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___InputSourceSelect_16;
+		WebXRInputEvent_t0935517504234FA6AE34655B93BBBB4C31070CA2* L_49 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___InputSourceSelect_20;
 		WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* L_50 = ___inputSource0;
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_51 = L_50->___Select_0;
 		WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* L_52 = ___inputSource0;
 		SimpleWebXR_RaiseInputSourceEvent_mADAB1C60124B0F56839CF77CC72521C0D9E3F1E7(L_48, ((int32_t)16), L_49, L_51, L_52, NULL);
 		// RaiseInputSourceEvent(mask, WebXRInputSourceEventTypes.SelectEnd, InputSourceSelectEnd, inputSource.SelectEnd, inputSource);
 		uint8_t L_53 = V_3;
-		WebXRInputEvent_t0935517504234FA6AE34655B93BBBB4C31070CA2* L_54 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___InputSourceSelectEnd_18;
+		WebXRInputEvent_t0935517504234FA6AE34655B93BBBB4C31070CA2* L_54 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___InputSourceSelectEnd_22;
 		WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* L_55 = ___inputSource0;
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_56 = L_55->___SelectEnd_2;
 		WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* L_57 = ___inputSource0;
 		SimpleWebXR_RaiseInputSourceEvent_mADAB1C60124B0F56839CF77CC72521C0D9E3F1E7(L_53, ((int32_t)32), L_54, L_56, L_57, NULL);
 		// RaiseInputSourceEvent(mask, WebXRInputSourceEventTypes.SelectStart, InputSourceSelectStart, inputSource.SelectStart, inputSource);
 		uint8_t L_58 = V_3;
-		WebXRInputEvent_t0935517504234FA6AE34655B93BBBB4C31070CA2* L_59 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___InputSourceSelectStart_17;
+		WebXRInputEvent_t0935517504234FA6AE34655B93BBBB4C31070CA2* L_59 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___InputSourceSelectStart_21;
 		WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* L_60 = ___inputSource0;
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_61 = L_60->___SelectStart_1;
 		WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* L_62 = ___inputSource0;
 		SimpleWebXR_RaiseInputSourceEvent_mADAB1C60124B0F56839CF77CC72521C0D9E3F1E7(L_58, 8, L_59, L_61, L_62, NULL);
 		// RaiseInputSourceEvent(mask, WebXRInputSourceEventTypes.Squeeze, InputSourceSqueeze, inputSource.Squeeze, inputSource);
 		uint8_t L_63 = V_3;
-		WebXRInputEvent_t0935517504234FA6AE34655B93BBBB4C31070CA2* L_64 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___InputSourceSqueeze_19;
+		WebXRInputEvent_t0935517504234FA6AE34655B93BBBB4C31070CA2* L_64 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___InputSourceSqueeze_23;
 		WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* L_65 = ___inputSource0;
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_66 = L_65->___Squeeze_3;
 		WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* L_67 = ___inputSource0;
 		SimpleWebXR_RaiseInputSourceEvent_mADAB1C60124B0F56839CF77CC72521C0D9E3F1E7(L_63, 2, L_64, L_66, L_67, NULL);
 		// RaiseInputSourceEvent(mask, WebXRInputSourceEventTypes.SqueezeEnd, InputSourceSqueezeEnd, inputSource.SqueezeEnd, inputSource);
 		uint8_t L_68 = V_3;
-		WebXRInputEvent_t0935517504234FA6AE34655B93BBBB4C31070CA2* L_69 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___InputSourceSqueezeEnd_21;
+		WebXRInputEvent_t0935517504234FA6AE34655B93BBBB4C31070CA2* L_69 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___InputSourceSqueezeEnd_25;
 		WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* L_70 = ___inputSource0;
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_71 = L_70->___SqueezeEnd_5;
 		WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* L_72 = ___inputSource0;
 		SimpleWebXR_RaiseInputSourceEvent_mADAB1C60124B0F56839CF77CC72521C0D9E3F1E7(L_68, 4, L_69, L_71, L_72, NULL);
 		// RaiseInputSourceEvent(mask, WebXRInputSourceEventTypes.SqueezeStart, InputSourceSqueezeStart, inputSource.SqueezeStart, inputSource);
 		uint8_t L_73 = V_3;
-		WebXRInputEvent_t0935517504234FA6AE34655B93BBBB4C31070CA2* L_74 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___InputSourceSqueezeStart_20;
+		WebXRInputEvent_t0935517504234FA6AE34655B93BBBB4C31070CA2* L_74 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___InputSourceSqueezeStart_24;
 		WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* L_75 = ___inputSource0;
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_76 = L_75->___SqueezeStart_4;
 		WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* L_77 = ___inputSource0;
 		SimpleWebXR_RaiseInputSourceEvent_mADAB1C60124B0F56839CF77CC72521C0D9E3F1E7(L_73, 1, L_74, L_76, L_77, NULL);
 		// _byteArray[eventId] = 0;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_78 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____byteArray_27;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_78 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____byteArray_31;
 		int32_t L_79 = V_2;
 		(L_78)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_79), (uint8_t)0);
 	}
@@ -5067,14 +5089,14 @@ IL_010c:
 		// inputSource.TargetRayMode = (WebXRTargetRayModes)_byteArray[byteStartId + 1];
 		WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* L_80 = ___inputSource0;
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_81 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____byteArray_27;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_81 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____byteArray_31;
 		int32_t L_82 = V_1;
 		int32_t L_83 = ((int32_t)il2cpp_codegen_add(L_82, 1));
 		uint8_t L_84 = (L_81)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_83));
 		L_80->___TargetRayMode_16 = L_84;
 		// inputSource.AxesCount = _byteArray[byteStartId + 2];
 		WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* L_85 = ___inputSource0;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_86 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____byteArray_27;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_86 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____byteArray_31;
 		int32_t L_87 = V_1;
 		int32_t L_88 = ((int32_t)il2cpp_codegen_add(L_87, 2));
 		uint8_t L_89 = (L_86)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_88));
@@ -5091,7 +5113,7 @@ IL_012f:
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_91 = L_90->___Axes_13;
 		int32_t L_92 = V_5;
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_93 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_93 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
 		int32_t L_94 = V_0;
 		int32_t L_95 = V_5;
 		int32_t L_96 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(L_94, 7)), L_95));
@@ -5115,7 +5137,7 @@ IL_014a:
 		// inputSource.ButtonsCount = _byteArray[byteStartId + 3];
 		WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* L_100 = ___inputSource0;
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_101 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____byteArray_27;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_101 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____byteArray_31;
 		int32_t L_102 = V_1;
 		int32_t L_103 = ((int32_t)il2cpp_codegen_add(L_102, 3));
 		uint8_t L_104 = (L_101)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_103));
@@ -5136,7 +5158,7 @@ IL_0163:
 		// button.Value = _dataArray[floatStartId + 15 + i];
 		WebXRGamepadButton_tCB5F20B23878868F45FFFC88FB74162F22CC7573* L_110 = L_109;
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_111 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_111 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
 		int32_t L_112 = V_0;
 		int32_t L_113 = V_6;
 		int32_t L_114 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(L_112, ((int32_t)15))), L_113));
@@ -5144,14 +5166,14 @@ IL_0163:
 		L_110->___Value_0 = L_115;
 		// button.Touched = _byteArray[byteStartId + 4 + i] != 0;
 		WebXRGamepadButton_tCB5F20B23878868F45FFFC88FB74162F22CC7573* L_116 = L_110;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_117 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____byteArray_27;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_117 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____byteArray_31;
 		int32_t L_118 = V_1;
 		int32_t L_119 = V_6;
 		int32_t L_120 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(L_118, 4)), L_119));
 		uint8_t L_121 = (L_117)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_120));
 		L_116->___Touched_1 = (bool)((!(((uint32_t)L_121) <= ((uint32_t)0)))? 1 : 0);
 		// button.Pressed = _byteArray[byteStartId + 12 + i] != 0;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_122 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____byteArray_27;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_122 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____byteArray_31;
 		int32_t L_123 = V_1;
 		int32_t L_124 = V_6;
 		int32_t L_125 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(L_123, ((int32_t)12))), L_124));
@@ -5174,7 +5196,7 @@ IL_01af:
 	{
 		// var handAvailable = 0 != _byteArray[46 + (int)inputSource.Handedness];
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_129 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____byteArray_27;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_129 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____byteArray_31;
 		WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* L_130 = ___inputSource0;
 		int32_t L_131 = L_130->___Handedness_8;
 		int32_t L_132 = ((int32_t)il2cpp_codegen_add(((int32_t)46), (int32_t)L_131));
@@ -5215,15 +5237,15 @@ IL_01e4:
 		// joint.Position = ToUnityPosition(_handData[i], _handData[i + 1], _handData[i + 2]);
 		WebXRJoint_t2A4DDC64AC86D5EAC909041876D109500E7EF4EE* L_147 = L_146;
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_148 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____handData_28;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_148 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____handData_32;
 		int32_t L_149 = V_8;
 		int32_t L_150 = L_149;
 		float L_151 = (L_148)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_150));
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_152 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____handData_28;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_152 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____handData_32;
 		int32_t L_153 = V_8;
 		int32_t L_154 = ((int32_t)il2cpp_codegen_add(L_153, 1));
 		float L_155 = (L_152)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_154));
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_156 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____handData_28;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_156 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____handData_32;
 		int32_t L_157 = V_8;
 		int32_t L_158 = ((int32_t)il2cpp_codegen_add(L_157, 2));
 		float L_159 = (L_156)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_158));
@@ -5232,19 +5254,19 @@ IL_01e4:
 		L_147->___Position_0 = L_160;
 		// joint.Rotation = ToUnityRotation(_handData[i + 3], _handData[i + 4], _handData[i + 5], _handData[i + 6]);
 		WebXRJoint_t2A4DDC64AC86D5EAC909041876D109500E7EF4EE* L_161 = L_147;
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_162 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____handData_28;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_162 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____handData_32;
 		int32_t L_163 = V_8;
 		int32_t L_164 = ((int32_t)il2cpp_codegen_add(L_163, 3));
 		float L_165 = (L_162)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_164));
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_166 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____handData_28;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_166 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____handData_32;
 		int32_t L_167 = V_8;
 		int32_t L_168 = ((int32_t)il2cpp_codegen_add(L_167, 4));
 		float L_169 = (L_166)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_168));
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_170 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____handData_28;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_170 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____handData_32;
 		int32_t L_171 = V_8;
 		int32_t L_172 = ((int32_t)il2cpp_codegen_add(L_171, 5));
 		float L_173 = (L_170)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_172));
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_174 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____handData_28;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_174 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____handData_32;
 		int32_t L_175 = V_8;
 		int32_t L_176 = ((int32_t)il2cpp_codegen_add(L_175, 6));
 		float L_177 = (L_174)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_176));
@@ -5252,7 +5274,7 @@ IL_01e4:
 		L_178 = SimpleWebXR_ToUnityRotation_m2BE6903D0CA9C5407A1B4785A6E850F7CC93E907(L_165, L_169, L_173, L_177, NULL);
 		L_161->___Rotation_1 = L_178;
 		// joint.Radius = _handData[i + 7];
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_179 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____handData_28;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_179 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____handData_32;
 		int32_t L_180 = V_8;
 		int32_t L_181 = ((int32_t)il2cpp_codegen_add(L_180, 7));
 		float L_182 = (L_179)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_181));
@@ -5274,8 +5296,26 @@ IL_0274:
 
 IL_027d:
 	{
-		// CheckPan();
+		// var xr = GetInstance();
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
+		SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8* L_185;
+		L_185 = SimpleWebXR_GetInstance_mF7E17097D73018D1F9BEF11A6296EEE6BE53AD4B(NULL);
+		// xr.LeftHand.transform.position = inputSource.Position;
+		SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8* L_186 = L_185;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_187 = L_186->___LeftHand_6;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_188;
+		L_188 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_187, NULL);
+		WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* L_189 = ___inputSource0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_190 = L_189->___Position_10;
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_188, L_190, NULL);
+		// xr.LeftHand.transform.rotation = inputSource.Rotation;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_191 = L_186->___LeftHand_6;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_192;
+		L_192 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_191, NULL);
+		WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* L_193 = ___inputSource0;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_194 = L_193->___Rotation_11;
+		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_192, L_194, NULL);
+		// CheckPan();
 		SimpleWebXR_CheckPan_mEC7A02C6D75A43E748595A7C6ECF827DD2532004(NULL);
 		// }
 		return;
@@ -5304,21 +5344,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleWebXR_CheckPan_mEC7A02C6D75A43E748
 		L_0 = SimpleWebXR_GetInstance_mF7E17097D73018D1F9BEF11A6296EEE6BE53AD4B(NULL);
 		V_0 = L_0;
 		// var axe2 = SimpleWebXR.LeftInput.Axes[2] + SimpleWebXR.RightInput.Axes[2];
-		WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* L_1 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___LeftInput_14;
+		WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* L_1 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___LeftInput_18;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_2 = L_1->___Axes_13;
 		int32_t L_3 = 2;
 		float L_4 = (L_2)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_3));
-		WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* L_5 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___RightInput_15;
+		WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* L_5 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___RightInput_19;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_6 = L_5->___Axes_13;
 		int32_t L_7 = 2;
 		float L_8 = (L_6)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_7));
 		V_1 = ((float)il2cpp_codegen_add(L_4, L_8));
 		// var axe3 = SimpleWebXR.LeftInput.Axes[3] + SimpleWebXR.RightInput.Axes[3];
-		WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* L_9 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___LeftInput_14;
+		WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* L_9 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___LeftInput_18;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_10 = L_9->___Axes_13;
 		int32_t L_11 = 3;
 		float L_12 = (L_10)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_11));
-		WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* L_13 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___RightInput_15;
+		WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* L_13 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___RightInput_19;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_14 = L_13->___Axes_13;
 		int32_t L_15 = 3;
 		float L_16 = (L_14)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_15));
@@ -5343,7 +5383,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleWebXR_CheckPan_mEC7A02C6D75A43E748
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_3), (-0.00999999978f), (-0.00999999978f), (-0.00999999978f), NULL);
 		// xr.myEarth.transform.localScale += scaleChange;
 		SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8* L_19 = V_0;
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20 = L_19->___myEarth_8;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20 = L_19->___myEarth_7;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_21;
 		L_21 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_20, NULL);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_22 = L_21;
@@ -5362,7 +5402,7 @@ IL_007e:
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_4), (0.00999999978f), (0.00999999978f), (0.00999999978f), NULL);
 		// xr.myEarth.transform.localScale += scaleChange;
 		SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8* L_26 = V_0;
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_27 = L_26->___myEarth_8;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_27 = L_26->___myEarth_7;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_28;
 		L_28 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_27, NULL);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_29 = L_28;
@@ -5386,11 +5426,11 @@ IL_00b1:
 	{
 		// xr.myEarth.transform.RotateAround(xr.myEarth.transform.position, Vector3.up, Time.deltaTime * NOMINAL_ROTATION_SPEED * axe2);
 		SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8* L_34 = V_0;
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_35 = L_34->___myEarth_8;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_35 = L_34->___myEarth_7;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_36;
 		L_36 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_35, NULL);
 		SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8* L_37 = V_0;
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_38 = L_37->___myEarth_8;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_38 = L_37->___myEarth_7;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_39;
 		L_39 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_38, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_40;
@@ -5412,27 +5452,30 @@ IL_00eb:
 // System.Void Rufus31415.WebXR.SimpleWebXR::UpdateHand(Rufus31415.WebXR.WebXRHand,UnityEngine.GameObject)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleWebXR_UpdateHand_m576756004AEEA04023D99F964DD8A0DEE7C1C51A (WebXRHand_tE80322082AD122643034032253B96E631DA88233* ___hand0, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___handObject1, const RuntimeMethod* method) 
 {
+	int32_t V_0 = 0;
 	{
-		// handObject.transform.position = hand.Joints[0].Position;
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___handObject1;
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
-		L_1 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_0, NULL);
-		WebXRHand_tE80322082AD122643034032253B96E631DA88233* L_2 = ___hand0;
-		WebXRJointU5BU5D_t7BE4B87B03E196E9B421C39E599122ECCFE0637E* L_3 = L_2->___Joints_1;
-		int32_t L_4 = 0;
-		WebXRJoint_t2A4DDC64AC86D5EAC909041876D109500E7EF4EE* L_5 = (L_3)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_4));
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = L_5->___Position_0;
-		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_1, L_6, NULL);
-		// handObject.transform.rotation = hand.Joints[0].Rotation;
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = ___handObject1;
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
-		L_8 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_7, NULL);
-		WebXRHand_tE80322082AD122643034032253B96E631DA88233* L_9 = ___hand0;
-		WebXRJointU5BU5D_t7BE4B87B03E196E9B421C39E599122ECCFE0637E* L_10 = L_9->___Joints_1;
-		int32_t L_11 = 0;
-		WebXRJoint_t2A4DDC64AC86D5EAC909041876D109500E7EF4EE* L_12 = (L_10)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_11));
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_13 = L_12->___Rotation_1;
-		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_8, L_13, NULL);
+		// for (int i = 0; i < WebXRHand.JOINT_COUNT; i++)
+		V_0 = 0;
+		goto IL_0008;
+	}
+
+IL_0004:
+	{
+		// for (int i = 0; i < WebXRHand.JOINT_COUNT; i++)
+		int32_t L_0 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_0, 1));
+	}
+
+IL_0008:
+	{
+		// for (int i = 0; i < WebXRHand.JOINT_COUNT; i++)
+		int32_t L_1 = V_0;
+		if ((((int32_t)L_1) < ((int32_t)((int32_t)25))))
+		{
+			goto IL_0004;
+		}
+	}
+	{
 		// }
 		return;
 	}
@@ -5589,34 +5632,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleWebXR_UpdateHitTest_m9DB0AD3038638
 	{
 		// HitTestPosition = ToUnityPosition(_dataArray[105], _dataArray[106], _dataArray[107]);
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_1 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_1 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
 		int32_t L_2 = ((int32_t)105);
 		float L_3 = (L_1)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_2));
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_4 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_4 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
 		int32_t L_5 = ((int32_t)106);
 		float L_6 = (L_4)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_5));
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_7 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_7 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
 		int32_t L_8 = ((int32_t)107);
 		float L_9 = (L_7)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_8));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
 		L_10 = SimpleWebXR_ToUnityPosition_m08BBBFF1E8231620A6C02736ECABF74E3E554CCA(L_3, L_6, L_9, NULL);
-		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___HitTestPosition_23 = L_10;
+		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___HitTestPosition_27 = L_10;
 		// HitTestRotation = ToUnityRotation(_dataArray[108], _dataArray[109], _dataArray[110], _dataArray[111]);
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_11 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_11 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
 		int32_t L_12 = ((int32_t)108);
 		float L_13 = (L_11)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_12));
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_14 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_14 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
 		int32_t L_15 = ((int32_t)109);
 		float L_16 = (L_14)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_15));
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_17 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_17 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
 		int32_t L_18 = ((int32_t)110);
 		float L_19 = (L_17)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_18));
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_20 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_20 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
 		int32_t L_21 = ((int32_t)111);
 		float L_22 = (L_20)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_21));
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_23;
 		L_23 = SimpleWebXR_ToUnityRotation_m2BE6903D0CA9C5407A1B4785A6E850F7CC93E907(L_13, L_16, L_19, L_22, NULL);
-		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___HitTestRotation_24 = L_23;
+		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___HitTestRotation_28 = L_23;
 	}
 
 IL_0053:
@@ -5641,7 +5684,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		V_0 = (0.0f);
 		// if (_referenceSpace == WebXRReferenceSpaces.LocalFloor)
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		int32_t L_0 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____referenceSpace_29;
+		int32_t L_0 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____referenceSpace_33;
 		if ((!(((uint32_t)L_0) == ((uint32_t)1))))
 		{
 			goto IL_0027;
@@ -5668,7 +5711,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 IL_0021:
 	{
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		float L_3 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____fallbackUserHeight_30;
+		float L_3 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____fallbackUserHeight_34;
 		G_B4_0 = L_3;
 	}
 
@@ -5939,7 +5982,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SimpleWebXR_GetDeviceOrientation_m74EA40
 	{
 		// if (!_orientationDeviceStarted)
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		bool L_0 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____orientationDeviceStarted_41;
+		bool L_0 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____orientationDeviceStarted_45;
 		if (L_0)
 		{
 			goto IL_001c;
@@ -5948,11 +5991,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SimpleWebXR_GetDeviceOrientation_m74EA40
 	{
 		// InternalGetDeviceOrientation(_orientationArray, _orientationInfo);
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_1 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____orientationArray_39;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_2 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____orientationInfo_40;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_1 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____orientationArray_43;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_2 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____orientationInfo_44;
 		SimpleWebXR_InternalGetDeviceOrientation_m8C5AD00F78B833D465B5E0F2035EC2791950056C(L_1, L_2, NULL);
 		// _orientationDeviceStarted = true;
-		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____orientationDeviceStarted_41 = (bool)1;
+		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____orientationDeviceStarted_45 = (bool)1;
 	}
 
 IL_001c:
@@ -5960,24 +6003,24 @@ IL_001c:
 		// alpha = _orientationArray[0];
 		float* L_3 = ___alpha0;
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_4 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____orientationArray_39;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_4 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____orientationArray_43;
 		int32_t L_5 = 0;
 		float L_6 = (L_4)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_5));
 		*((float*)L_3) = (float)L_6;
 		// beta = _orientationArray[1];
 		float* L_7 = ___beta1;
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_8 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____orientationArray_39;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_8 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____orientationArray_43;
 		int32_t L_9 = 1;
 		float L_10 = (L_8)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_9));
 		*((float*)L_7) = (float)L_10;
 		// gamma = _orientationArray[2];
 		float* L_11 = ___gamma2;
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_12 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____orientationArray_39;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_12 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____orientationArray_43;
 		int32_t L_13 = 2;
 		float L_14 = (L_12)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_13));
 		*((float*)L_11) = (float)L_14;
 		// return _orientationInfo[0] != 0;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_15 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____orientationInfo_40;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_15 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____orientationInfo_44;
 		int32_t L_16 = 0;
 		uint8_t L_17 = (L_15)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_16));
 		return (bool)((!(((uint32_t)L_17) <= ((uint32_t)0)))? 1 : 0);
@@ -5995,7 +6038,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52C
 	{
 		// public static float[] SimulatedDataArray => _dataArray;
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_0 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_0 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30;
 		return L_0;
 	}
 }
@@ -6011,7 +6054,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A8261
 	{
 		// public static byte[] SimulatedByteArray => _byteArray;
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____byteArray_27;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____byteArray_31;
 		return L_0;
 	}
 }
@@ -6045,7 +6088,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleWebXR__ctor_mB0AF49B2E2C8191AD0720
 {
 	{
 		// public float FallbackUserHeight = 1.8f;
-		__this->___FallbackUserHeight_10 = (1.79999995f);
+		__this->___FallbackUserHeight_14 = (1.79999995f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}
@@ -6069,86 +6112,86 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleWebXR__cctor_m86F91077A806600D1E5D
 		// public static readonly UnityEvent SessionStart = new UnityEvent();
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_0 = (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977*)il2cpp_codegen_object_new(UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977_il2cpp_TypeInfo_var);
 		UnityEvent__ctor_m03D3E5121B9A6100351984D0CE3050B909CD3235(L_0, NULL);
-		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___SessionStart_12 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___SessionStart_12), (void*)L_0);
+		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___SessionStart_16 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___SessionStart_16), (void*)L_0);
 		// public static readonly UnityEvent SessionEnd = new UnityEvent();
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_1 = (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977*)il2cpp_codegen_object_new(UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977_il2cpp_TypeInfo_var);
 		UnityEvent__ctor_m03D3E5121B9A6100351984D0CE3050B909CD3235(L_1, NULL);
-		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___SessionEnd_13 = L_1;
-		Il2CppCodeGenWriteBarrier((void**)(&((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___SessionEnd_13), (void*)L_1);
+		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___SessionEnd_17 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___SessionEnd_17), (void*)L_1);
 		// public static readonly WebXRInputSource LeftInput = new WebXRInputSource(WebXRHandedness.Left);
 		WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* L_2 = (WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0*)il2cpp_codegen_object_new(WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0_il2cpp_TypeInfo_var);
 		WebXRInputSource__ctor_m7ADE5CF9C11CC57668D7A3FD4FA5C0521D3EBE95(L_2, 0, NULL);
-		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___LeftInput_14 = L_2;
-		Il2CppCodeGenWriteBarrier((void**)(&((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___LeftInput_14), (void*)L_2);
+		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___LeftInput_18 = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___LeftInput_18), (void*)L_2);
 		// public static readonly WebXRInputSource RightInput = new WebXRInputSource(WebXRHandedness.Right);
 		WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0* L_3 = (WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0*)il2cpp_codegen_object_new(WebXRInputSource_tB9CDF7E06D4283F12D9F7B5F3F99404A8B872BE0_il2cpp_TypeInfo_var);
 		WebXRInputSource__ctor_m7ADE5CF9C11CC57668D7A3FD4FA5C0521D3EBE95(L_3, 1, NULL);
-		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___RightInput_15 = L_3;
-		Il2CppCodeGenWriteBarrier((void**)(&((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___RightInput_15), (void*)L_3);
+		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___RightInput_19 = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___RightInput_19), (void*)L_3);
 		// public static readonly WebXRInputEvent InputSourceSelect = new WebXRInputEvent();
 		WebXRInputEvent_t0935517504234FA6AE34655B93BBBB4C31070CA2* L_4 = (WebXRInputEvent_t0935517504234FA6AE34655B93BBBB4C31070CA2*)il2cpp_codegen_object_new(WebXRInputEvent_t0935517504234FA6AE34655B93BBBB4C31070CA2_il2cpp_TypeInfo_var);
 		WebXRInputEvent__ctor_mA25A518313974F5CCF2A22A3F2D2C89927E94374(L_4, NULL);
-		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___InputSourceSelect_16 = L_4;
-		Il2CppCodeGenWriteBarrier((void**)(&((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___InputSourceSelect_16), (void*)L_4);
+		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___InputSourceSelect_20 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___InputSourceSelect_20), (void*)L_4);
 		// public static readonly WebXRInputEvent InputSourceSelectStart = new WebXRInputEvent();
 		WebXRInputEvent_t0935517504234FA6AE34655B93BBBB4C31070CA2* L_5 = (WebXRInputEvent_t0935517504234FA6AE34655B93BBBB4C31070CA2*)il2cpp_codegen_object_new(WebXRInputEvent_t0935517504234FA6AE34655B93BBBB4C31070CA2_il2cpp_TypeInfo_var);
 		WebXRInputEvent__ctor_mA25A518313974F5CCF2A22A3F2D2C89927E94374(L_5, NULL);
-		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___InputSourceSelectStart_17 = L_5;
-		Il2CppCodeGenWriteBarrier((void**)(&((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___InputSourceSelectStart_17), (void*)L_5);
+		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___InputSourceSelectStart_21 = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___InputSourceSelectStart_21), (void*)L_5);
 		// public static readonly WebXRInputEvent InputSourceSelectEnd = new WebXRInputEvent();
 		WebXRInputEvent_t0935517504234FA6AE34655B93BBBB4C31070CA2* L_6 = (WebXRInputEvent_t0935517504234FA6AE34655B93BBBB4C31070CA2*)il2cpp_codegen_object_new(WebXRInputEvent_t0935517504234FA6AE34655B93BBBB4C31070CA2_il2cpp_TypeInfo_var);
 		WebXRInputEvent__ctor_mA25A518313974F5CCF2A22A3F2D2C89927E94374(L_6, NULL);
-		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___InputSourceSelectEnd_18 = L_6;
-		Il2CppCodeGenWriteBarrier((void**)(&((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___InputSourceSelectEnd_18), (void*)L_6);
+		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___InputSourceSelectEnd_22 = L_6;
+		Il2CppCodeGenWriteBarrier((void**)(&((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___InputSourceSelectEnd_22), (void*)L_6);
 		// public static readonly WebXRInputEvent InputSourceSqueeze = new WebXRInputEvent();
 		WebXRInputEvent_t0935517504234FA6AE34655B93BBBB4C31070CA2* L_7 = (WebXRInputEvent_t0935517504234FA6AE34655B93BBBB4C31070CA2*)il2cpp_codegen_object_new(WebXRInputEvent_t0935517504234FA6AE34655B93BBBB4C31070CA2_il2cpp_TypeInfo_var);
 		WebXRInputEvent__ctor_mA25A518313974F5CCF2A22A3F2D2C89927E94374(L_7, NULL);
-		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___InputSourceSqueeze_19 = L_7;
-		Il2CppCodeGenWriteBarrier((void**)(&((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___InputSourceSqueeze_19), (void*)L_7);
+		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___InputSourceSqueeze_23 = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___InputSourceSqueeze_23), (void*)L_7);
 		// public static readonly WebXRInputEvent InputSourceSqueezeStart = new WebXRInputEvent();
 		WebXRInputEvent_t0935517504234FA6AE34655B93BBBB4C31070CA2* L_8 = (WebXRInputEvent_t0935517504234FA6AE34655B93BBBB4C31070CA2*)il2cpp_codegen_object_new(WebXRInputEvent_t0935517504234FA6AE34655B93BBBB4C31070CA2_il2cpp_TypeInfo_var);
 		WebXRInputEvent__ctor_mA25A518313974F5CCF2A22A3F2D2C89927E94374(L_8, NULL);
-		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___InputSourceSqueezeStart_20 = L_8;
-		Il2CppCodeGenWriteBarrier((void**)(&((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___InputSourceSqueezeStart_20), (void*)L_8);
+		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___InputSourceSqueezeStart_24 = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___InputSourceSqueezeStart_24), (void*)L_8);
 		// public static readonly WebXRInputEvent InputSourceSqueezeEnd = new WebXRInputEvent();
 		WebXRInputEvent_t0935517504234FA6AE34655B93BBBB4C31070CA2* L_9 = (WebXRInputEvent_t0935517504234FA6AE34655B93BBBB4C31070CA2*)il2cpp_codegen_object_new(WebXRInputEvent_t0935517504234FA6AE34655B93BBBB4C31070CA2_il2cpp_TypeInfo_var);
 		WebXRInputEvent__ctor_mA25A518313974F5CCF2A22A3F2D2C89927E94374(L_9, NULL);
-		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___InputSourceSqueezeEnd_21 = L_9;
-		Il2CppCodeGenWriteBarrier((void**)(&((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___InputSourceSqueezeEnd_21), (void*)L_9);
+		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___InputSourceSqueezeEnd_25 = L_9;
+		Il2CppCodeGenWriteBarrier((void**)(&((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___InputSourceSqueezeEnd_25), (void*)L_9);
 		// public static readonly UnityEvent InputSourcesChange = new UnityEvent();
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_10 = (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977*)il2cpp_codegen_object_new(UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977_il2cpp_TypeInfo_var);
 		UnityEvent__ctor_m03D3E5121B9A6100351984D0CE3050B909CD3235(L_10, NULL);
-		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___InputSourcesChange_22 = L_10;
-		Il2CppCodeGenWriteBarrier((void**)(&((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___InputSourcesChange_22), (void*)L_10);
+		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___InputSourcesChange_26 = L_10;
+		Il2CppCodeGenWriteBarrier((void**)(&((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___InputSourcesChange_26), (void*)L_10);
 		// private static bool _initialized = false;
-		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____initialized_25 = (bool)0;
+		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____initialized_29 = (bool)0;
 		// private static readonly float[] _dataArray = new float[112];
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_11 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)112));
-		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26 = L_11;
-		Il2CppCodeGenWriteBarrier((void**)(&((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_26), (void*)L_11);
+		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30 = L_11;
+		Il2CppCodeGenWriteBarrier((void**)(&((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____dataArray_30), (void*)L_11);
 		// private static readonly byte[] _byteArray = new byte[50];
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_12 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)50));
-		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____byteArray_27 = L_12;
-		Il2CppCodeGenWriteBarrier((void**)(&((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____byteArray_27), (void*)L_12);
+		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____byteArray_31 = L_12;
+		Il2CppCodeGenWriteBarrier((void**)(&((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____byteArray_31), (void*)L_12);
 		// private static readonly float[] _handData = new float[8 * 25 * 2];
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_13 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)400));
-		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____handData_28 = L_13;
-		Il2CppCodeGenWriteBarrier((void**)(&((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____handData_28), (void*)L_13);
+		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____handData_32 = L_13;
+		Il2CppCodeGenWriteBarrier((void**)(&((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____handData_32), (void*)L_13);
 		// private static readonly Camera[] _cameras = new Camera[2];
 		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_14 = (CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B*)(CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B*)SZArrayNew(CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B_il2cpp_TypeInfo_var, (uint32_t)2);
-		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____cameras_31 = L_14;
-		Il2CppCodeGenWriteBarrier((void**)(&((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____cameras_31), (void*)L_14);
+		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____cameras_35 = L_14;
+		Il2CppCodeGenWriteBarrier((void**)(&((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____cameras_35), (void*)L_14);
 		// private static readonly float[] _orientationArray = new float[3];
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_15 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)3);
-		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____orientationArray_39 = L_15;
-		Il2CppCodeGenWriteBarrier((void**)(&((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____orientationArray_39), (void*)L_15);
+		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____orientationArray_43 = L_15;
+		Il2CppCodeGenWriteBarrier((void**)(&((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____orientationArray_43), (void*)L_15);
 		// private static readonly byte[] _orientationInfo = new byte[1];
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_16 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)1);
-		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____orientationInfo_40 = L_16;
-		Il2CppCodeGenWriteBarrier((void**)(&((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____orientationInfo_40), (void*)L_16);
+		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____orientationInfo_44 = L_16;
+		Il2CppCodeGenWriteBarrier((void**)(&((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____orientationInfo_44), (void*)L_16);
 		// private static bool _orientationDeviceStarted = false;
-		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____orientationDeviceStarted_41 = (bool)0;
+		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->____orientationDeviceStarted_45 = (bool)0;
 		return;
 	}
 }
@@ -6911,7 +6954,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool SimpleWebXR_get_InSession_mF
 	{
 		// public static bool InSession { get; private set; }
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		bool L_0 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___U3CInSessionU3Ek__BackingField_11;
+		bool L_0 = ((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___U3CInSessionU3Ek__BackingField_15;
 		return L_0;
 	}
 }
@@ -6927,7 +6970,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SimpleWebXR_set_InSession_mB
 		// public static bool InSession { get; private set; }
 		bool L_0 = ___value0;
 		il2cpp_codegen_runtime_class_init_inline(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var);
-		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___U3CInSessionU3Ek__BackingField_11 = L_0;
+		((SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_StaticFields*)il2cpp_codegen_static_fields_for(SimpleWebXR_tD9ADB04409E61DA3766D1B564F2C273B6FF8DCE8_il2cpp_TypeInfo_var))->___U3CInSessionU3Ek__BackingField_15 = L_0;
 		return;
 	}
 }

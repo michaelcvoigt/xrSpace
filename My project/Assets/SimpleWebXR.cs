@@ -89,10 +89,16 @@ namespace Rufus31415.WebXR
         public bool HideStartButton;
 
         public GUISkin customSkin;
-        [SerializeField]public GameObject RightHand;
+        //[SerializeField]public GameObject RightHand;
         [SerializeField]public GameObject LeftHand;
 
         [SerializeField]public GameObject myEarth;
+        [SerializeField]public GameObject myCorona;
+        [SerializeField]public GameObject mySatelliteNameText;
+        [SerializeField]public Camera mainCamera;
+        [SerializeField]public Camera secondaryCamera;
+
+        private static Camera activeCamera;
 
         /// <summary>
         /// XR Space in which positions are returned
@@ -138,7 +144,7 @@ namespace Rufus31415.WebXR
                 }
                 else
                 {
-                    GUI.Label(new Rect((Screen.width - width) / 2, Screen.height - (height*4), width, height), "WebXR is not supported on this device.");
+                    GUI.Label(new Rect((Screen.width - width) / 2, Screen.height - (height*5), width, height), "WebXR is not supported on this device.");
                 }
             }
         }
@@ -223,7 +229,7 @@ namespace Rufus31415.WebXR
 
 
         /// <summary>
-        /// Camera that renders Left eye (Camera.main)
+        /// Camera that renders Left eye (activeCamera)
         /// </summary>
         public static Camera LeftEye => _cameras[0];
 
@@ -261,6 +267,7 @@ namespace Rufus31415.WebXR
             if (_initialized) return;
             InitWebXR(_dataArray, _dataArray.Length, _byteArray, _byteArray.Length, _handData, _handData.Length);
             _initialized = true;
+
         }
 
         /// <summary>
@@ -382,6 +389,9 @@ namespace Rufus31415.WebXR
         /// </summary>
         public static void UpdateWebXR()
         {
+            var xr = GetInstance();
+            activeCamera = xr.mainCamera;
+
             UpdateCamera(WebXRViewEyes.Left);
             UpdateCamera(WebXRViewEyes.Right);
 
@@ -551,10 +561,10 @@ namespace Rufus31415.WebXR
                     {
                         if (_shouldRestoreMainCameraProperties)
                         {
-                            Camera.main.backgroundColor = _mainCameraBackgroundColor;
-                            Camera.main.clearFlags = _mainCameraClearFlags;
-                            Camera.main.projectionMatrix = _mainCameraProjectionMatrix;
-                            Camera.main.rect = _mainCameraRect;
+                            activeCamera.backgroundColor = _mainCameraBackgroundColor;
+                            activeCamera.clearFlags = _mainCameraClearFlags;
+                            activeCamera.projectionMatrix = _mainCameraProjectionMatrix;
+                            activeCamera.rect = _mainCameraRect;
                         }
                     }
                     else
@@ -573,23 +583,23 @@ namespace Rufus31415.WebXR
             {
                 if (id > 0)
                 {
-                    // clone main camera
-                    _cameras[id] = Instantiate(Camera.main, Camera.main.gameObject.transform.parent);
+                    // clone active camera
+                    _cameras[id] = Instantiate(activeCamera, activeCamera.gameObject.transform.parent);
                     _cameras[id].name = "WebXRCamera_" + id;
-                    _cameras[id].depth = Camera.main.depth - 1;
+                    _cameras[id].depth = activeCamera.depth - 1;
                 }
                 else
                 {
                     _shouldRestoreMainCameraProperties = false;
 
-                    if (Camera.main)
+                    if (activeCamera)
                     {
-                        _cameras[0] = Camera.main;
+                        _cameras[0] = activeCamera;
                         _shouldRestoreMainCameraProperties = true;
-                        _mainCameraBackgroundColor = Camera.main.backgroundColor;
-                        _mainCameraClearFlags = Camera.main.clearFlags;
-                        _mainCameraProjectionMatrix = Camera.main.projectionMatrix;
-                        _mainCameraRect = Camera.main.rect;
+                        _mainCameraBackgroundColor = activeCamera.backgroundColor;
+                        _mainCameraClearFlags = activeCamera.clearFlags;
+                        _mainCameraProjectionMatrix = activeCamera.projectionMatrix;
+                        _mainCameraRect = activeCamera.rect;
                     }
                     else
                     {
@@ -648,6 +658,10 @@ namespace Rufus31415.WebXR
             // Get position and rotation Z, RX and RY are inverted
             _cameras[id].transform.localPosition = ToUnityPosition(_dataArray[floatStartId + 16], _dataArray[floatStartId + 17], _dataArray[floatStartId + 18]);
             _cameras[id].transform.localRotation = ToUnityRotation(_dataArray[floatStartId + 19], _dataArray[floatStartId + 20], _dataArray[floatStartId + 21], _dataArray[floatStartId + 22]);
+
+            var xr = GetInstance();
+            xr.myCorona.transform.LookAt(activeCamera.transform);
+            xr.mySatelliteNameText.transform.LookAt(activeCamera.transform);
         }
 
         // Update input source pose
@@ -712,9 +726,11 @@ namespace Rufus31415.WebXR
                     joint.Radius = _handData[i + 7];
                 }
             }
-            //var xr = GetInstance();
+            var xr = GetInstance();
             //UpdateHand(RightInput.Hand,xr.RightHand);
             //UpdateHand(LeftInput.Hand,xr.LeftHand);
+            xr.LeftHand.transform.position = inputSource.Position;
+            xr.LeftHand.transform.rotation = inputSource.Rotation;
 
             CheckPan();
              
@@ -765,8 +781,8 @@ namespace Rufus31415.WebXR
 
         private static void UpdateHand(WebXRHand hand, GameObject handObject)
         {
-            //for (int i = 0; i < WebXRHand.JOINT_COUNT; i++)
-            //{
+            for (int i = 0; i < WebXRHand.JOINT_COUNT; i++)
+            {
                 //var sphere = go.transform.GetChild(i);
 
                 // Show the sphere if hand is available
@@ -776,13 +792,15 @@ namespace Rufus31415.WebXR
                 //sphere.position = hand.Joints[i].Position;
                 //sphere.rotation = hand.Joints[i].Rotation;
 
-                handObject.transform.position = hand.Joints[0].Position;
-                handObject.transform.rotation = hand.Joints[0].Rotation;
+                //handObject.transform.position = hand.Joints[i].Position;
+                //handObject.transform.rotation = hand.Joints[i].Rotation;
 
                 // Set radius if supported
                 //var radius = hand.Joints[i].Radius / 2;
                 //if (!float.IsNaN(radius)) sphere.transform.localScale = new Vector3(radius, radius, radius);
-            //}
+            }
+
+        
         }
 
         // Raise input sources select and squeeze events

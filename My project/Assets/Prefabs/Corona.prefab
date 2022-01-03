@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7098136132181765579}
   - component: {fileID: 7098136132181765578}
   - component: {fileID: 7098136132181765581}
+  - component: {fileID: 4471734572638620785}
   m_Layer: 0
   m_Name: Corona
   m_TagString: Untagged
@@ -25,7 +26,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7098136132181765580}
-  m_LocalRotation: {x: -0, y: -0.7071068, z: 0.7071068, w: 0}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0.7071068, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 4.7423544, y: 4.742355, z: 4.742355}
   m_ConstrainProportionsScale: 0
@@ -83,3 +84,15 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &4471734572638620785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7098136132181765580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1fdcb17ada06461681056d0ef50b8c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -21,8 +21,6 @@ ScriptsOnlyBuild:
     Unity.XR.Management.dll:
     - UnityEngine.XR.Management.XRGeneralSettings
     - UnityEngine.XR.Management.XRManagerSettings
-    Unity.XR.Oculus.dll:
-    - Unity.XR.Oculus.OculusSettings
     Unity.XR.OpenXR.Editor.dll:
     - UnityEditor.XR.OpenXR.OpenXRPackageSettings
     Unity.XR.OpenXR.Features.ConformanceAutomation.dll:
@@ -68,6 +66,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 96
@@ -77,23 +79,23 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 712}
+      Script: {instanceID: 740}
     - Class: 114
-      Script: {instanceID: 1878}
+      Script: {instanceID: 1906}
     - Class: 114
-      Script: {instanceID: 2122}
+      Script: {instanceID: 2150}
     - Class: 114
-      Script: {instanceID: 2138}
+      Script: {instanceID: 2166}
     - Class: 114
-      Script: {instanceID: 2882}
+      Script: {instanceID: 2654}
     - Class: 114
-      Script: {instanceID: 3356}
+      Script: {instanceID: 2912}
     - Class: 114
-      Script: {instanceID: 3888}
+      Script: {instanceID: 3386}
     - Class: 114
-      Script: {instanceID: 4134}
+      Script: {instanceID: 3918}
     - Class: 114
-      Script: {instanceID: 23890}
+      Script: {instanceID: 4164}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -353,6 +355,12 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
+      Hash: d6277f1b807e1d0d428b64367fdd2cd3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameClock
+  - hash:
+      serializedVersion: 2
       Hash: ea41fa959037983f32ebd7c70de46554
     assemblyName: Unity.XR.OpenXR.dll
     namespaceName: UnityEngine.XR.OpenXR.Features.Interactions
@@ -431,7 +439,7 @@ ScriptsOnlyBuild:
     className: OnScreenButton
   - hash:
       serializedVersion: 2
-      Hash: 4f5d9a956351d28f47c192a323a8e4dc
+      Hash: 6efbd7d723b35959568d44300f7f04f2
     assemblyName: Assembly-CSharp.dll
     namespaceName: Rufus31415.WebXR
     className: SimpleWebXR
@@ -885,12 +893,6 @@ ScriptsOnlyBuild:
     assemblyName: Rufus31415.SimpleWebXR.dll
     namespaceName: Rufus31415.WebXR
     className: SimpleWebXR
-  - hash:
-      serializedVersion: 2
-      Hash: d6277f1b807e1d0d428b64367fdd2cd3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GameClock
   platform: 20
   scenePathNames:
   - Assets/SpaceScene.unity
