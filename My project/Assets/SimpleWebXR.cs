@@ -95,6 +95,7 @@ namespace Rufus31415.WebXR
         [SerializeField]public GameObject myEarth;
         [SerializeField]public GameObject myCorona;
         [SerializeField]public GameObject mySatelliteNameText;
+        [SerializeField]public GameObject myMoonNameText;
         [SerializeField]public Camera mainCamera;
         [SerializeField]public Camera secondaryCamera;
 
@@ -662,6 +663,7 @@ namespace Rufus31415.WebXR
             var xr = GetInstance();
             xr.myCorona.transform.LookAt(activeCamera.transform);
             xr.mySatelliteNameText.transform.LookAt(activeCamera.transform);
+            xr.myMoonNameText.transform.LookAt(activeCamera.transform);
         }
 
         // Update input source pose

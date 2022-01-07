@@ -21,6 +21,8 @@ ScriptsOnlyBuild:
     Unity.XR.Management.dll:
     - UnityEngine.XR.Management.XRGeneralSettings
     - UnityEngine.XR.Management.XRManagerSettings
+    Unity.XR.Oculus.dll:
+    - Unity.XR.Oculus.OculusSettings
     Unity.XR.OpenXR.Editor.dll:
     - UnityEditor.XR.OpenXR.OpenXRPackageSettings
     Unity.XR.OpenXR.Features.ConformanceAutomation.dll:
@@ -97,6 +99,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4164}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 121
       Script: {instanceID: 0}
     - Class: 124
       Script: {instanceID: 0}
@@ -439,7 +443,7 @@ ScriptsOnlyBuild:
     className: OnScreenButton
   - hash:
       serializedVersion: 2
-      Hash: 6efbd7d723b35959568d44300f7f04f2
+      Hash: f38f1a462c122811a4db693af24d5778
     assemblyName: Assembly-CSharp.dll
     namespaceName: Rufus31415.WebXR
     className: SimpleWebXR

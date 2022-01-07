@@ -334,7 +334,7 @@ PrefabInstance:
     - target: {fileID: 9019415254102744732, guid: 347040970b496ba4086308c48e34652b,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9019415254102744732, guid: 347040970b496ba4086308c48e34652b,
         type: 3}
@@ -344,7 +344,7 @@ PrefabInstance:
     - target: {fileID: 9019415254102744732, guid: 347040970b496ba4086308c48e34652b,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9019415254102744732, guid: 347040970b496ba4086308c48e34652b,
         type: 3}
@@ -354,7 +354,7 @@ PrefabInstance:
     - target: {fileID: 9019415254102744732, guid: 347040970b496ba4086308c48e34652b,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 347040970b496ba4086308c48e34652b, type: 3}
@@ -372,7 +372,7 @@ TrailRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6288009670926649255}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
